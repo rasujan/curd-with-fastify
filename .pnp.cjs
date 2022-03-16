@@ -42,6 +42,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["fastify-swagger", "npm:5.0.0"],\
             ["husky", "npm:7.0.4"],\
             ["nodemon", "npm:2.0.15"],\
+            ["pinst", "npm:3.0.0"],\
             ["prettier", "npm:2.6.0"],\
             ["uuid", "npm:8.3.2"]\
           ],\
@@ -208,6 +209,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["fastify-swagger", "npm:5.0.0"],\
             ["husky", "npm:7.0.4"],\
             ["nodemon", "npm:2.0.15"],\
+            ["pinst", "npm:3.0.0"],\
             ["prettier", "npm:2.6.0"],\
             ["uuid", "npm:8.3.2"]\
           ],\
@@ -3076,6 +3078,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/pino-std-serializers-npm-3.2.0-9fd67503a4-77e29675b1.zip/node_modules/pino-std-serializers/",\
           "packageDependencies": [\
             ["pino-std-serializers", "npm:3.2.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["pinst", [\
+        ["npm:3.0.0", {\
+          "packageLocation": "./.yarn/cache/pinst-npm-3.0.0-5d2b6c1dda-4ae48a6a60.zip/node_modules/pinst/",\
+          "packageDependencies": [\
+            ["pinst", "npm:3.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
