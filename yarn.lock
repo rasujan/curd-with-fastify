@@ -144,7 +144,7 @@ __metadata:
     fastify-swagger: ^5.0.0
     husky: ^7.0.4
     nodemon: ^2.0.15
-    prettier: 2.6.0
+    prettier: ^2.6.0
     uuid: ^8.3.2
   languageName: unknown
   linkType: soft
@@ -2579,7 +2579,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:2.6.0":
+"prettier@npm:^2.6.0":
   version: 2.6.0
   resolution: "prettier@npm:2.6.0"
   bin:

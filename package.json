@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node server",
     "dev": "nodemon server",
-    "postinstall": "husky install"
+    "postinstall": "husky install",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
@@ -24,6 +25,6 @@
     "eslint-plugin-prettier": "^4.0.0",
     "husky": "^7.0.4",
     "nodemon": "^2.0.15",
-    "prettier": "2.6.0"
+    "prettier": "^2.6.0"
   }
 }
