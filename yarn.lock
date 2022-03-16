@@ -142,7 +142,7 @@ __metadata:
     eslint-plugin-prettier: ^4.0.0
     fastify: ^3.27.4
     fastify-swagger: ^5.0.0
-    husky: ^7.0.4
+    husky: ^7.0.0
     nodemon: ^2.0.15
     pinst: ^3.0.0
     prettier: ^2.6.0
@@ -1586,7 +1586,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"husky@npm:^7.0.4":
+"husky@npm:^7.0.0":
   version: 7.0.4
   resolution: "husky@npm:7.0.4"
   bin:
