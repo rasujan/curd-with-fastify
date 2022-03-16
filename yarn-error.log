@@ -1,0 +1,42 @@
+Arguments: 
+  /home/sujan/.nvm/versions/node/v14.18.2/bin/node /home/sujan/.yarn/releases/yarn-1.23.0-20220130.1630.cjs set version stable
+
+PATH: 
+  /home/sujan/.nvm/versions/node/v14.18.2/bin:/home/sujan/anaconda3/bin:/home/sujan/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+
+Yarn version: 
+  1.23.0-20220130.1630
+
+Node version: 
+  14.18.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: Release not found: stable
+      at /home/sujan/.yarn/releases/yarn-1.23.0-20220130.1630.cjs:98328:17
+      at Generator.next (<anonymous>)
+      at step (/home/sujan/.yarn/releases/yarn-1.23.0-20220130.1630.cjs:310:30)
+      at /home/sujan/.yarn/releases/yarn-1.23.0-20220130.1630.cjs:321:13
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+npm manifest: 
+  {
+    "name": "Fastify-API",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,12 @@
+node_modules/
+
+dist/
+
+web-build/
+./yarn
+
+.yarn/
+
+# macOS
+.DS_Store
+
