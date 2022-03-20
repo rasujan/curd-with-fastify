@@ -1,17 +1,17 @@
 {
-    "env": {
-        "browser": true,
-        "commonjs": true,
-        "es2021": true
-    },
-    "extends": [
-        "airbnb-base"
-    ],
-    "parserOptions": {
-        "ecmaVersion": "latest"
-    },
-    "rules": {
-        "curly": "error",
-        "quotes": ["error", "double"]
-    }
+  "env": {
+    "browser": true,
+    "commonjs": true
+  },
+  "extends": ["airbnb-base"],
+  "parserOptions": {
+    "ecmaVersion": 11
+  },
+  "rules": {
+    "curly": "error",
+    "quotes": ["error", "double"],
+    "no-underscore-dangle": 0,
+    "import/extensions": 0,
+    "comma-dangle": 0
+  }
 }

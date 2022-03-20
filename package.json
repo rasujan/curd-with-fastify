@@ -3,19 +3,23 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "type": "module",
+  "esnext": "true",
   "scripts": {
-    "start": "node server",
+    "start": "node  server",
     "dev": "nodemon server",
     "postinstall": "husky install",
     "prepack": "pinst --disable",
     "postpack": "pinst --enable"
   },
+  "private": true,
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "rasujan",
+  "license": "MIT",
   "dependencies": {
     "fastify": "^3.27.4",
     "fastify-swagger": "^5.0.0",
+    "lodash": "^4.17.21",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
@@ -24,9 +28,8 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-prettier": "^4.0.0",
-    "husky": "^7.0.0",
+    "husky": "^7.0.4",
     "nodemon": "^2.0.15",
-    "pinst": "^3.0.0",
     "prettier": "^2.6.0"
   }
 }
